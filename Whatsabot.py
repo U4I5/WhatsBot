@@ -1,0 +1,6 @@
+from heyoo import WhatsApp
+token = "EAAQu89KoprsBAOEZBngnDZAUyZBgXaGSzZCmGAD1g5UHlOsjStHxGpHx8ZC9IfKEmtZA798jXXxPF6TqW5OfYLGWDPb4oaq9ghlmt3ZANRuFZCzMPoSZCVwZAjdm69kJhFrwJUZCnYycO9CZCStCqNQSUWZBf0cpJCmJYr8RlL9q1ZC9CZAZCO8FkFFlpav9STZCjZBSCxuTkBCPjK24c9GAZDZD"
+
+messenger = WhatsApp(token=token,  phone_number_id='107795741981188')
+
+messenger.send_message('Hi there just testiing', '0612629663')
